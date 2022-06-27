@@ -1,3 +1,9 @@
-salve
-
 Primeiro MVC - feito pelos Alunos Guilherme Naderer Chaves e William Dutra Ribeiro
+
+O MVC tem como vantagem você dividir as tarefas entre as camadas da sua aplicação, onde cada uma daquelas fica encarregada de uma parte desta. Usando o MVC facilita nas manutenções e atualizações futuras, pois dessa maneira a compreensão do que cada parte faz é mais simples.
+
+O MVC é um padrão de arquitetura de aplicações que divide a aplicação em três camadas:
+
+Model: Esta camada é onde a lógica acontece, similar ao back-end, onde ocorre o processamento e manipulação dos dados.
+View: Esta camada é responsável pela parte visual entregue ao usuário, ela somente mostra os dados, similar ao front-end. Consegue acessar os dados da model, mas não o que eles significam e nem como manipulá-los.
+Controller: Camada entre a view e a model, responsável por decidir como os eventos ocorrem, qual view será chamada para cada evento, normalmente quando a view é chamada, o controller também vai chamar um model. O Output final será basicamente o view + o model, que será decidido pelo controller.
